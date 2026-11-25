@@ -16,3 +16,16 @@ Tap this repository:
 ```bash
 brew tap mtak/tap
 ```
+
+Homebrew 7+ refuses to load formulae from untrusted taps. Trust this tap (or
+a single formula with `brew trust --formula mtak/tap/<formula>`):
+
+```bash
+brew trust mtak/tap
+```
+
+Then install a formula, e.g.:
+
+```bash
+brew install rhyper
+```
