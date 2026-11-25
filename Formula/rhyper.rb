@@ -1,6 +1,9 @@
 class Rhyper < Formula
   desc "Turn the Right Command key into a Hyper key (Ctrl+Opt+Shift+Cmd)"
   homepage "https://github.com/mtak/rhyper"
+  url "https://github.com/mtak/rhyper/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "8a379d4000abae5d30336540c7d6f5f0a58834d0332c44339bcd32b08e0e99ca"
+  license "MIT"
   head "https://github.com/mtak/rhyper.git", branch: "main"
 
   depends_on :macos
